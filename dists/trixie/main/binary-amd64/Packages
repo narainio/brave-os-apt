@@ -1,23 +1,4 @@
 Package: brave-os-archive-keyring
-Version: 0.2.0
-Architecture: all
-Maintainer: brave-os project <n@narain.io>
-Installed-Size: 36
-Section: misc
-Priority: optional
-Description: brave-os APT repository signing key and source entry
- Installs the public key that signs the brave-os package repository and the
- deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
- own packages receive updates through that repository; APT verifies every
- release file against this keyring (Signed-By), never against the global
- trust store.
-Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.0_all.deb
-Size: 1464
-MD5sum: 8b4e239bd5fc70a46b9a4a8da6657cb3
-SHA1: f9c8ccb7fc9e5353a273e6efe9b0f43a8ccfa230
-SHA256: 4a725e785b19a9e82cd6f73dffa4abdbeafff08f2b4370d4fcf71861b182ef0e
-
-Package: brave-os-archive-keyring
 Version: 0.2.1
 Architecture: all
 Maintainer: brave-os project <n@narain.io>
@@ -55,25 +36,24 @@ MD5sum: 9a36dde6782d3e5715a98a031db86525
 SHA1: 7162ad02945a32f2152e3bb111fa711be3792e26
 SHA256: 2b6d5cab23114e26f4fed939fd4bd0ac65eff9d3902dae3676854bb25d8813e4
 
-Package: brave-os-session
-Version: 0.2.0
+Package: brave-os-archive-keyring
+Version: 0.2.3
 Architecture: all
 Maintainer: brave-os project <n@narain.io>
-Installed-Size: 376
+Installed-Size: 36
 Section: misc
 Priority: optional
-Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, psmisc, procps, xdg-user-dirs, xdg-utils, network-manager
-Description: brave-os browser appliance session
- The labwc session, panel, Settings, idle and power policy, Downloads
- retention, installer launcher and update policy of the brave-os browser
- appliance. Installed systems receive new versions of this package through
- the brave-os APT repository (brave-os-archive-keyring); a sign-out or
- restart then picks the new session files up.
-Filename: pool/main/b/brave-os-session/brave-os-session_0.2.0_all.deb
-Size: 30184
-MD5sum: bff920a6541e200ff2e02e1e2957cf1c
-SHA1: bfef9088c5f6c39c2d0627c252cbacf66a08719a
-SHA256: 21beba3f2347989917a7768366c79b736365712dad296ca709abfb93a01a423f
+Description: brave-os APT repository signing key and source entry
+ Installs the public key that signs the brave-os package repository and the
+ deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
+ own packages receive updates through that repository; APT verifies every
+ release file against this keyring (Signed-By), never against the global
+ trust store.
+Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.3_all.deb
+Size: 1472
+MD5sum: db6d44adb7da1156cfd67733226813ed
+SHA1: 425cf62803921e70ceed6d5553842e4d89cac4f3
+SHA256: f716929cb0e6f4682c0f63304b015c7e783cf9cc4610f859c92753ac0349bfec
 
 Package: brave-os-session
 Version: 0.2.1
@@ -114,4 +94,24 @@ Size: 30752
 MD5sum: 8c05708fa3d27bf8ee85cf8ea692430b
 SHA1: d78baa801d9e351a72349ce455a2799e758ee5e9
 SHA256: e7a76f891853c5af81863c7817cf483b4b5e092c2f76ae68cca33898dd71f617
+
+Package: brave-os-session
+Version: 0.2.3
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 372
+Section: misc
+Priority: optional
+Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, procps, xdg-user-dirs, xdg-utils, network-manager
+Description: brave-os browser appliance session
+ The labwc session, panel, Settings, idle and power policy, Downloads
+ retention, installer launcher and update policy of the brave-os browser
+ appliance. Installed systems receive new versions of this package through
+ the brave-os APT repository (brave-os-archive-keyring); a sign-out or
+ restart then picks the new session files up.
+Filename: pool/main/b/brave-os-session/brave-os-session_0.2.3_all.deb
+Size: 30868
+MD5sum: 7c1260dc11bbf1a36e8257e2aaa6b4b5
+SHA1: 542b8816923adcf6db19cea066fbc0c3bd93bd89
+SHA256: fd04c6eebf6328f96757f92f08594c1575166c85089dfc2b97edaf7eab190515
 

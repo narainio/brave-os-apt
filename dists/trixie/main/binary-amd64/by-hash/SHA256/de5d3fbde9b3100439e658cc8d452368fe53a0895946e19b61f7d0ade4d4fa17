@@ -1,0 +1,117 @@
+Package: brave-os-archive-keyring
+Version: 0.2.1
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 36
+Section: misc
+Priority: optional
+Description: brave-os APT repository signing key and source entry
+ Installs the public key that signs the brave-os package repository and the
+ deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
+ own packages receive updates through that repository; APT verifies every
+ release file against this keyring (Signed-By), never against the global
+ trust store.
+Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.1_all.deb
+Size: 1468
+MD5sum: 6634410143ad1174dccde4211884e30a
+SHA1: 9033f7673bc8afc9c8b89c04c7d41cc3155da49b
+SHA256: 96fd6564a75608bcd25115238720a3f90f6167d0a1dc3b159316d6cf036e0aa6
+
+Package: brave-os-archive-keyring
+Version: 0.2.2
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 36
+Section: misc
+Priority: optional
+Description: brave-os APT repository signing key and source entry
+ Installs the public key that signs the brave-os package repository and the
+ deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
+ own packages receive updates through that repository; APT verifies every
+ release file against this keyring (Signed-By), never against the global
+ trust store.
+Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.2_all.deb
+Size: 1468
+MD5sum: 9a36dde6782d3e5715a98a031db86525
+SHA1: 7162ad02945a32f2152e3bb111fa711be3792e26
+SHA256: 2b6d5cab23114e26f4fed939fd4bd0ac65eff9d3902dae3676854bb25d8813e4
+
+Package: brave-os-archive-keyring
+Version: 0.2.3
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 36
+Section: misc
+Priority: optional
+Description: brave-os APT repository signing key and source entry
+ Installs the public key that signs the brave-os package repository and the
+ deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
+ own packages receive updates through that repository; APT verifies every
+ release file against this keyring (Signed-By), never against the global
+ trust store.
+Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.3_all.deb
+Size: 1472
+MD5sum: db6d44adb7da1156cfd67733226813ed
+SHA1: 425cf62803921e70ceed6d5553842e4d89cac4f3
+SHA256: f716929cb0e6f4682c0f63304b015c7e783cf9cc4610f859c92753ac0349bfec
+
+Package: brave-os-session
+Version: 0.2.1
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 376
+Section: misc
+Priority: optional
+Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, procps, xdg-user-dirs, xdg-utils, network-manager
+Description: brave-os browser appliance session
+ The labwc session, panel, Settings, idle and power policy, Downloads
+ retention, installer launcher and update policy of the brave-os browser
+ appliance. Installed systems receive new versions of this package through
+ the brave-os APT repository (brave-os-archive-keyring); a sign-out or
+ restart then picks the new session files up.
+Filename: pool/main/b/brave-os-session/brave-os-session_0.2.1_all.deb
+Size: 30460
+MD5sum: 67614ca5db69ac62dd9c01dd03cb7863
+SHA1: 17fc73055ed794ef18e6d807376e44a5c84149ca
+SHA256: 1febd16fd6b43359db2866328efa6b335e8e9ebdc87adb436bc7252ac54b90ec
+
+Package: brave-os-session
+Version: 0.2.2
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 376
+Section: misc
+Priority: optional
+Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, procps, xdg-user-dirs, xdg-utils, network-manager
+Description: brave-os browser appliance session
+ The labwc session, panel, Settings, idle and power policy, Downloads
+ retention, installer launcher and update policy of the brave-os browser
+ appliance. Installed systems receive new versions of this package through
+ the brave-os APT repository (brave-os-archive-keyring); a sign-out or
+ restart then picks the new session files up.
+Filename: pool/main/b/brave-os-session/brave-os-session_0.2.2_all.deb
+Size: 30752
+MD5sum: 8c05708fa3d27bf8ee85cf8ea692430b
+SHA1: d78baa801d9e351a72349ce455a2799e758ee5e9
+SHA256: e7a76f891853c5af81863c7817cf483b4b5e092c2f76ae68cca33898dd71f617
+
+Package: brave-os-session
+Version: 0.2.3
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 372
+Section: misc
+Priority: optional
+Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, procps, xdg-user-dirs, xdg-utils, network-manager
+Description: brave-os browser appliance session
+ The labwc session, panel, Settings, idle and power policy, Downloads
+ retention, installer launcher and update policy of the brave-os browser
+ appliance. Installed systems receive new versions of this package through
+ the brave-os APT repository (brave-os-archive-keyring); a sign-out or
+ restart then picks the new session files up.
+Filename: pool/main/b/brave-os-session/brave-os-session_0.2.3_all.deb
+Size: 30868
+MD5sum: 7c1260dc11bbf1a36e8257e2aaa6b4b5
+SHA1: 542b8816923adcf6db19cea066fbc0c3bd93bd89
+SHA256: fd04c6eebf6328f96757f92f08594c1575166c85089dfc2b97edaf7eab190515
+
