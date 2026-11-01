@@ -5,19 +5,19 @@ Origin: brave-os
 Label: brave-os
 Suite: trixie
 Codename: trixie
-Date: Sun, 01 Nov 2026 12:50:54 GMT
+Date: Sun, 01 Nov 2026 16:44:48 GMT
 Architectures: amd64
 Components: main
 Description: brave-os browser appliance packages (unofficial; not affiliated with Brave Software or Debian)
 Acquire-By-Hash: yes
 SHA256:
- da7d9932ef025ce85782e31d2ee9106f9b44cd53506a1b8e97df37bc35b3a27d             6111 main/binary-amd64/Packages
- 9be622416447179feead46c47247a57beb0b5b1c9b5b5fe3f3c062c762009c42             1497 main/binary-amd64/Packages.gz
+ 46b2407f69c23f82b50732191a2a855272467108c650a33671c6bebe96744024             6111 main/binary-amd64/Packages
+ 39975eb90619a22de8d42d5ad79ab118a5b6b1d7e992199fef617c09cd05593a             1490 main/binary-amd64/Packages.gz
  0c9692ae311bdd8cc80c78bd3783631082d154a80be859284c1bd59798a9c114              106 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQ2LVObvE8bTZaKqSxn5tAusYGFbgUCauc1rgAKCRBn5tAusYGF
-bi8vAP42z4Pxsg1V4tN6j/jhDhkhMEDF+JuRpzUVcNHKjvF7CQD/VnbROU6zyaMv
-jt/YuUk1f8lQGtBAXxWezQuRfQt1HA4=
-=86qt
+iHUEARYKAB0WIQQ2LVObvE8bTZaKqSxn5tAusYGFbgUCaudsgQAKCRBn5tAusYGF
+bsuiAPsHRefs4XwJQoN1+wJASrA8g8rCU9g+ACExzr/cmeVZQgD7Bh64ZBiAAlLg
+mrsVVfmlxPpRlxzIIzsaTBo6DPrHxQ0=
+=263s
 -----END PGP SIGNATURE-----
