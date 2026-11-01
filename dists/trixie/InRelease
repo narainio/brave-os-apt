@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: brave-os
+Label: brave-os
+Suite: trixie
+Codename: trixie
+Date: Sun, 01 Nov 2026 12:18:46 GMT
+Architectures: amd64
+Components: main
+Description: brave-os browser appliance packages (unofficial; not affiliated with Brave Software or Debian)
+Acquire-By-Hash: yes
+SHA256:
+ b4330080722ab1846a73e39bad64282623bd529215e9d7b1821d3610a5590149             2045 main/binary-amd64/Packages
+ d8a581fbac888355b75e94cb5a5dd01227c53aaa5c899fb9484d04ba36318a8a             1027 main/binary-amd64/Packages.gz
+ 0c9692ae311bdd8cc80c78bd3783631082d154a80be859284c1bd59798a9c114              106 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQ2LVObvE8bTZaKqSxn5tAusYGFbgUCaucuJgAKCRBn5tAusYGF
+bmU1AQDtA1YLYiAtJoudVR8+5C/9wYZ1MsvnetxZlYn01aM0bAEA2JfksWg99fzM
+bG8CdDaMn+k3yENe/V0YEhURN+LH+g4=
+=dnmm
+-----END PGP SIGNATURE-----

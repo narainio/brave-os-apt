@@ -1,0 +1,6 @@
+Archive: trixie
+Origin: brave-os
+Label: brave-os
+Component: main
+Architecture: amd64
+Acquire-By-Hash: yes

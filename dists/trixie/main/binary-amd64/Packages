@@ -1,0 +1,39 @@
+Package: brave-os-archive-keyring
+Version: 0.2.0
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 36
+Section: misc
+Priority: optional
+Description: brave-os APT repository signing key and source entry
+ Installs the public key that signs the brave-os package repository and the
+ deb822 source entry for it (https://raw.githubusercontent.com/narainio/brave-os-apt/main, suite trixie). The appliance's
+ own packages receive updates through that repository; APT verifies every
+ release file against this keyring (Signed-By), never against the global
+ trust store.
+Filename: pool/main/b/brave-os-archive-keyring/brave-os-archive-keyring_0.2.0_all.deb
+Size: 1464
+MD5sum: 8b4e239bd5fc70a46b9a4a8da6657cb3
+SHA1: f9c8ccb7fc9e5353a273e6efe9b0f43a8ccfa230
+SHA256: 4a725e785b19a9e82cd6f73dffa4abdbeafff08f2b4370d4fcf71861b182ef0e
+
+Package: brave-os-session
+Version: 0.2.0
+Architecture: all
+Maintainer: brave-os project <n@narain.io>
+Installed-Size: 376
+Section: misc
+Priority: optional
+Depends: brave-os-archive-keyring, labwc, waybar, swayidle, swaylock, swaybg, wlopm, lightdm, lightdm-gtk-greeter, gnome-keyring, libpam-gnome-keyring, mate-polkit, mako-notifier, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, thunar, python3, python3-gi, gir1.2-gtk-3.0, gir1.2-glib-2.0, libnotify-bin, pkexec, polkitd, unattended-upgrades, powermgmt-base, psmisc, procps, xdg-user-dirs, xdg-utils, network-manager
+Description: brave-os browser appliance session
+ The labwc session, panel, Settings, idle and power policy, Downloads
+ retention, installer launcher and update policy of the brave-os browser
+ appliance. Installed systems receive new versions of this package through
+ the brave-os APT repository (brave-os-archive-keyring); a sign-out or
+ restart then picks the new session files up.
+Filename: pool/main/b/brave-os-session/brave-os-session_0.2.0_all.deb
+Size: 30184
+MD5sum: bff920a6541e200ff2e02e1e2957cf1c
+SHA1: bfef9088c5f6c39c2d0627c252cbacf66a08719a
+SHA256: 21beba3f2347989917a7768366c79b736365712dad296ca709abfb93a01a423f
+
