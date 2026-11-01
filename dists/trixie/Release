@@ -2,12 +2,12 @@ Origin: brave-os
 Label: brave-os
 Suite: trixie
 Codename: trixie
-Date: Sun, 01 Nov 2026 12:25:10 GMT
+Date: Sun, 01 Nov 2026 12:27:41 GMT
 Architectures: amd64
 Components: main
 Description: brave-os browser appliance packages (unofficial; not affiliated with Brave Software or Debian)
 Acquire-By-Hash: yes
 SHA256:
- c5a55d458f4d1bfc7d267c23ba4e7b50d8508f71762ffae24002bd438c357238             4082 main/binary-amd64/Packages
- 4372ba5b086dff05fdd4cf2aa4afec8e27ca2d310935822bd7e2b92c0488a806             1271 main/binary-amd64/Packages.gz
+ 665c1b1a60de30e195ac56de2d7891f215d48f92586fa474a8ca238a508cb13a             6119 main/binary-amd64/Packages
+ ef44cbad0917627d96a72fc31574c4856b46b2cb14555259fb13be4aebc72621             1494 main/binary-amd64/Packages.gz
  0c9692ae311bdd8cc80c78bd3783631082d154a80be859284c1bd59798a9c114              106 main/binary-amd64/Release
